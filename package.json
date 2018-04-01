@@ -11,6 +11,11 @@
         "theme",
         "template"
     ],
+
+    "scripts": {
+        "start": "harp server --port $PORT"
+      },
+
     "homepage": "https://startbootstrap.com/template-overviews/business-casual",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual/issues",
@@ -26,11 +31,11 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual.git"
     },
     "dependencies": {
+        "harp": "*",
         "bootstrap": "4.0.0",
         "jquery": "3.3.1"
     },
     "devDependencies": {
-        "postinstall" : "gulp build",
         "browser-sync": "2.23.6",
         "gulp": "^3.9.1",
         "gulp-clean-css": "3.9.2",
